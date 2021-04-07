@@ -99,7 +99,7 @@ import mlreportgen.dom.*
 
 disp("Generating Project 3 Report...")
 
-doctype = "docx";                                                           %Specify document type for report
+doctype = "pdf";                                                           %Specify document type for report
 rpt = Report("HW3 Report",doctype);                                %Create Report container
 rpt.Layout.PageNumberFormat = "i";
 
